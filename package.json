@@ -1,0 +1,13 @@
+{
+  "name": "advent-of-code-2024",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "^1.1.38"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "heap-js": "^2.5.0"
+  }
+}
