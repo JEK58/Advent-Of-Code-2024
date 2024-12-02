@@ -2,7 +2,7 @@ const input = Bun.file("input.txt");
 
 const lines = (await input.text())
   .split("\n")
-  .map((el) => el.split(" ").map((el) => +el));
+  .map((el) => el.split(" ").map(Number));
 
 const safeLines = lines.map((line) => isSafeLine(line)).filter((el) => !!el);
 
