@@ -1,5 +1,3 @@
-import { row2col } from "../utils/utils";
-
 const input = Bun.file("input.txt");
 
 const raw = await input.text();
